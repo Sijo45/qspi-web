@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+
+}
+body {
+    /* Combining the background image and the gradient */
+        /* Background Image */
+
+
+        width: 100%;
+        height: 100%;
+          background:rgba(0,0,0,0.7)url('./HTML/Media/netflixbg.jpg');
+          background-blend-mode:darken;
+
+  
+    background-size: cover;
+}
+
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+    flex-basis: 15%;
+    border: 2px solid red; 
+    text-align: center;
+}
+#right
+{
+    flex-basis: 85%;
+}

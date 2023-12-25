@@ -1,0 +1,133 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:white;
+}
+#face
+{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 150px auto;
+}
+#eye1
+{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border-radius: 50%;
+    position: relative;
+    top:100px;
+    left:50px;
+}
+
+#eye2
+{
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+    left:180px;
+}
+#eyeball1
+{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+    top: -20px;
+}
+
+#eyeball2
+{
+    height: 40px;
+    width: 40px;
+    background-color:black;
+    border-radius: 50%;
+    position: relative;
+    left:200px;
+    top: -60px;
+}
+
+#eyeball1,#eyeball2
+{
+    animation-name: eyeball;
+    animation-duration: 5s;
+    animation-timing-function:ease-in ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes eyeball
+{
+    0%{
+        transform:translateY(-20px);
+    }
+    50%
+    {
+        transform: translateY(20px);
+    }
+    75%
+    {
+        transform: translateY(-20px);
+    }
+    100%
+    {
+        transform:translateY(20px) ;
+    }
+}
+
+#mouth
+{
+    height: 10px;
+    width: 50px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left:130px;
+    top:10px;
+
+}
+#tongue
+{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    left: 130px;
+    top:10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation: tongue 5s linear infinite;
+}
+@keyframes tongue {
+    0%
+    {
+        height: 0px;
+    }
+    25%
+    {
+        height: 10px;
+    }
+    50%
+    {
+        height: 20px;
+    }
+    75%
+    {
+        height: 30px;
+    }
+    
+}

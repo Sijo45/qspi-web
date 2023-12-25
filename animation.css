@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color:white;
+    
+}
+section
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+img
+{
+    border-radius: 40px;
+}
+span
+{
+    color: white;
+   
+}
+.merry
+{
+    position: relative;
+    right: 200px;
+    bottom: 35px;
+}
+.christmas
+{
+    position: relative;
+    right: 262px;
+    top:10px;
+}
+.merry
+{
+    animation-name: merry;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+}
+@keyframes merry {
+    from{
+        color:black;
+        font-size: 20px;
+    }
+    to{
+        color: yellow;
+        font-size:40px;
+    }
+    
+}   

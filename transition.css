@@ -1,0 +1,29 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    width:100%;
+    height: 100vh;
+    background-color: red;
+    
+}
+span{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #eee;
+    background-color: greenyellow;
+    display: inline-block;
+    transition-property: width;
+    transition-delay: 0.1s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+
+    transform: translateX(70px);
+    transform: translateY(30px);
+}
+span:hover{
+    width: 300px;
+}
