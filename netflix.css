@@ -33,12 +33,43 @@ nav{
 #logo
 {
     width: 100px;
-    height: 100px;
+    height: 70px;
     flex-basis: 15%;
-    border: 2px solid red; 
+    border: 2px solid; 
     text-align: center;
 }
 #right
 {
     flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#right ul li button{
+    color: white;
+    list-style-type: none;
+}
+#right ul{
+    display: flex;
+    gap:50px;
+    position: absolute;
+    right: 50px;
+
+}
+#button1 {
+    background-color: inherit;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white; /* Adjust color as needed */
+   
+    appearance:inherit; /* Remove default dropdown arrow for certain browsers */
+    padding: 5px 10px; /* Adjust padding for better appearance */
+   /* Add pointer cursor for better UX */
+}
+#button2{
+    background-color: red;
+    width:130px;
+    height:40px;
+    border-radius: 10px;
 }
