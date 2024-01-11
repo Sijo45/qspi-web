@@ -16,8 +16,8 @@ body {
         height: 100%;
           background:rgba(0,0,0,0.7)url('./HTML/Media/netflixbg.jpg');
           background-blend-mode:darken;
-
-  
+    
+    
     background-size: cover;
 }
 
@@ -63,13 +63,51 @@ nav{
     border-radius: 10px;
     color: white; /* Adjust color as needed */
    
-    appearance:inherit; /* Remove default dropdown arrow for certain browsers */
-    padding: 5px 10px; /* Adjust padding for better appearance */
+   /* Remove default dropdown arrow for certain browsers */
+    padding: 10px 10px; /* Adjust padding for better appearance */
    /* Add pointer cursor for better UX */
+}
+#button1 option{
+    color: black;
 }
 #button2{
     background-color: red;
     width:130px;
     height:40px;
     border-radius: 10px;
+}
+h1{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: inherit;
+    height: 40px;
+    width: 250px;
+    color:white
+}
+.started
+{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.form2
+{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.content
+{
+    margin-top: 12%;
 }

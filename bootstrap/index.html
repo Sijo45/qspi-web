@@ -6,7 +6,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body>
+  
    <!--Navbarstarts here-->
    <nav class="navbar navbar-expand-lg bg-secondary-subtle">
     <div class="container-fluid">
@@ -22,19 +22,171 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#destinations">Popular Destinations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#aboutus">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link disabled" aria-disabled="true">Contact us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
    <!--Navbar ends here-->
+
+  <!-- carousel starts here -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../HTML/Media/mountain1.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../HTML/Media/mountain2.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../HTML/Media/greeenary.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../HTML/Media/mountain3.avif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel ends here -->
+
+
+   <!--Main container starts here-->
+   <div class="container">
+
+    <h1 class="mt-5 p-5 text-center">Tour Canada Today</h1>
+
+    <div class="bg-dark-subtle p-5 m-5 fs-5">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid non rerum neque, aliquam reprehenderit deserunt eaque veniam quo? Temporibus, error. Officia temporibus esse blanditiis nulla accusantium ducimus debitis sed quae numquam, soluta, vero deleniti voluptates necessitatibus. Aperiam earum beatae aliquam excepturi? Laboriosam, sint autem. Recusandae impedit obcaecati quo maiores, labore dignissimos harum eum. Rerum totam aliquid sed. Ipsum modi reprehenderit delectus amet labore vitae exercitationem dolore eos libero voluptatibus!
+      </p>
+      <button type="button" class="btn btn-primary btn-lg">Book Your Trip</button>
+
+      
+
+    </div>
+    <h1 class="mt-5 p-5 text-center" id="destinations">Popular Destinations</h1>
+
+    <div class="row">
+      <div class="col">
+           <!-- card1 -->
+
+
+           <div class="card" style="width: 18rem;">
+            <img src="../HTML/Media/mountain1.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Canada</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="col">
+        <!-- card1 -->
+
+
+        <div class="card" style="width: 18rem;">
+         <img src="../HTML/Media/mountain3.avif" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Germany</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+         </div>
+       </div>
+   </div>
+
+   <div class="col">
+    <!-- card1 -->
+
+
+    <div class="card" style="width: 18rem;">
+     <img src="../HTML/Media/greeenary.avif" class="card-img-top" alt="...">
+     <div class="card-body">
+       <h5 class="card-title">India</h5>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Go somewhere</a>
+     </div>
+   </div>
+</div>
+    </div>
+
+
+   </div>
+  <!--About us-->
+<!-- About Us -->
+<h1 class="mt-1 mb-5 p-5 text-center">About Us</h1>
+<div class="row">
+  <div class="col-4">
+    <div class="bg-info mt-5 mb-5 p-5">
+      <h2>
+        Fees
+      </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nisi perspiciatis iusto, quaerat dolores in deleniti eaque animi et ex sint temporibus accusantium nihil asperiores minima hic enim vero est atque aliquam ratione architecto dolore. Aliquid, vitae. Vero officiis neque minima vitae, possimus, dolore molestias voluptatibus magni, voluptatum commodi quae.</p>
+      <button>Book now</button>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="bg-info mt-5 mb-5 p-5">
+      <h2>
+        Fees
+      </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nisi perspiciatis iusto, quaerat dolores in deleniti eaque animi et ex sint temporibus accusantium nihil asperiores minima hic enim vero est atque aliquam ratione architecto dolore. Aliquid, vitae. Vero officiis neque minima vitae, possimus, dolore molestias voluptatibus magni, voluptatum commodi quae.</p>
+      <button>Book now</button>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="bg-info mt-5 mb-5 p-5">
+      <h2>
+        Fees
+      </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nisi perspiciatis iusto, quaerat dolores in deleniti eaque animi et ex sint temporibus accusantium nihil asperiores minima hic enim vero est atque aliquam ratione architecto dolore. Aliquid, vitae. Vero officiis neque minima vitae, possimus, dolore molestias voluptatibus magni, voluptatum commodi quae.</p>
+      <button>Book now</button>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="bg-info mt-5 mb-5 p-5">
+      <h2>
+        Fees
+      </h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nisi perspiciatis iusto, quaerat dolores in deleniti eaque animi et ex sint temporibus accusantium nihil asperiores minima hic enim vero est atque aliquam ratione architecto dolore. Aliquid, vitae. Vero officiis neque minima vitae, possimus, dolore molestias voluptatibus magni, voluptatum commodi quae.</p>
+      <button>Book now</button>
+    </div>
+  </div>
+
+  
+  
+</div>
+
+
+ 
+
+
+      </div>
+
+   <!--Main container ends here-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
